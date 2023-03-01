@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0, 0.9);
+}
+
+.container-formulario {
+  margin: 0 50px;
+  padding: 10px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+}
+
+form {
+  background-color: #f2cf61;
+  margin: 50px;
+  width: 800px;
+  height: 900px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.logo {
+  width: 40%;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+
+}
+
+/* Personalizar botón Ingresar*/
+
+.ingresar_boton {
+  text-decoration: ;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.solicitar_acceso {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 2px;
+}

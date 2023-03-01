@@ -1,0 +1,92 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><center>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <form name="login">
+
+        <img class="logo" src="photo_5181912909624749056_y-removebg-preview.webp" />
+
+        <div class="container-formulario">
+
+            <h1>bienvenido kamaleón</h1>
+
+          <!--  <h2>ingresa tus datos</h2>  -->  
+    
+         <table>
+           <tr>
+            <h3><p>Usuario:</p></h3>
+            <span class="cnt">
+            <input name="usuario" type="text" class="Input" value=""/>
+            </span>
+           </tr><tr>
+          <h3><p>Contraseña:</p></h3><span class="cnt">
+          <input name="password" type="password" class="Input" value=""/></span>
+          </tr><tr>
+          <br><br>
+          <input class="ingresar_boton" value="Ingresar" target="_parent" onclick="Login()" type="button" class="boton"/>
+          <tr><tr><br>
+          <input class="solicitar_acceso" scope="row" type="reset" value="Borrar todo" class="boton"/>
+          </tr>
+          <br><br>
+          <a class="solicitar_acceso" href="https://wa.link/xo1kb9" target="_blank">Solicitar acceso</a>
+
+        </div>
+
+       
+
+    </form>
+
+</body>
+
+</html>
+
+
+<!-- Todos los usuarios -->
+
+<script language="JavaScript">
+function Login(){
+var done=0;
+var usuario=document.login.usuario.value;
+var password=document.login.password.value;
+if (usuario=="steven" && password=="1234") {
+window.location="AQUÍ VA LA SECCIÓN";
+}
+if (usuario=="Andres Bernal" && password=="1234") {
+window.location="https://www.socialcreator.com/camaleonmodelsgroup/?s=198712";
+}
+if (usuario=="Gabriela Sanchez" && password=="1234") {
+window.location="https://www.socialcreator.com/camaleonmodelsgroup/?s=198713";
+}
+if (usuario=="Kenlly Lopez" && password=="1234") {
+window.location="https://www.socialcreator.com/camaleonmodelsgroup/?s=198714";
+}
+if (usuario=="USUARIO3" && password=="CONTRASEÑA3") {
+window.location="AQUÍ VA LA SECCIÓN";
+}
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  const passwordInput = document.querySelector('input[name="password"]');
+  passwordInput.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+      document.querySelector(".ingresar_boton").click();
+    }
+  });
+});
+
+
+
+        </script>
+<script language="Javascript">
+document.oncontextmenu = function(){return false}
+</script>
+
+
+            
